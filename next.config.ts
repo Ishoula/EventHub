@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-
+  
+  cacheComponents:true,
   images:{
     remotePatterns:[
       {
@@ -25,6 +26,7 @@ const nextConfig: NextConfig = {
     ]
   },
   skipTrailingSlashRedirect:true,
+  
 };
 
 export default nextConfig;
